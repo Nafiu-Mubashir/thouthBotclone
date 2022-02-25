@@ -1,0 +1,369 @@
+body{
+    /* background-color: #FAFAFA; */
+    font-family: Arial;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    overflow: hidden;
+    display: flex;
+    position: fixed;
+    top: 0;
+    padding: 2em;
+    background-color: white;
+    width: 100%;
+}
+.navbar div{
+    margin-left: 200px;
+    margin-top: 5px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #A8A8A8;
+    margin-left: 25px;
+    padding: auto;
+    cursor: pointer;
+    font-size: 15px;
+}
+.navbar a:hover{
+    text-decoration: underline;
+    color: #CE2D2D;
+}
+.navbar img{
+    width: 15%;
+    height: 8vh;
+    cursor: pointer;
+}
+.navbar button{
+    margin-left: auto;
+    width: 100%;
+    height: 8vh;
+    border: none;
+    background-color: #CE2D2D;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 35px;
+    margin-right: 100px;
+}
+#btn{
+    width: 15%;
+    height: 8vh;
+    border-radius: 30px;
+    padding: 2px;    
+}
+#btn:hover{
+    border-radius: 30px;
+    border: thick solid #CE2D2D;
+}
+#body{
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+span{
+    background-color: #FFD86A;
+    box-shadow: 5px 5px #FFD86A;
+}
+#body-text{
+    margin: auto;
+    width: 50%;
+}
+#body-text h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+#body-text p{
+    font-size: 18px;
+    line-height: 2em;
+    text-align: left;
+}
+#body-text button{
+    width: 100%;
+    height: 8vh;
+    color: white;
+    background-color: #CE2D2D;
+    border: none;
+    font-size: 15px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+#btn1{
+    width: 20%;
+    height: 8vh;
+    border-radius: 30px;
+    padding: 2px;    
+}
+#btn1:hover{
+    border-radius: 30px;
+    border: thick solid #CE2D2D;
+}
+#body-image{
+    width: 45%;
+    margin-right: 20px;
+}
+#body-text a{
+    font-size: 20px;
+}
+#section-2{
+    padding: 2em;
+    margin: auto;
+}
+#section-2 p{
+    /* font-size: 20px; */
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+#section-2 h3{
+    font-size: 30px;
+    font-weight: bolder;
+}
+#section-2 img{
+    width: 100%;
+    margin: auto;
+}
+#section-2c{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 1em;
+}
+#section-2c2{
+    background-color: #F0F0F8;
+    width: 60%;
+    padding: 2em;
+}
+#section-2c2 div{
+    margin-top: 100px;
+}
+#sect2-img{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 1em;
+    width: 95%;
+}
+#sect2-img div{
+    width: 100%;
+    margin-left: 25px;
+}
+#sect2-img div img{
+    width: 100%;
+    margin: auto;
+}
+a{
+    color: #CE2D2D;
+}
+a:hover{
+    text-decoration: none;
+}
+#sect{
+    display: flex;
+    justify-content: space-evenly;
+}
+#sect-1{
+    width: 50%;
+    text-align: left;
+    margin-right: 90px;
+}
+#sect-1 p{
+    letter-spacing: normal;
+    line-height: 2em;
+}
+#sect-1 a{
+    word-spacing: 2px;
+    font-size: 20px;
+}
+#sect-2{
+    width: 35%;
+    line-height: 1.5em;
+}
+#bodys{
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+#bodys-image{
+    width: 40%;
+    margin-left: 30px;
+}
+#bodys-text{
+    margin: auto;
+    width: 50%;
+    margin-left: 100px;
+}
+#bodys-text h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+#bodys-text p{
+    font-size: 18px;
+    line-height: 2em;
+    text-align: left;
+}
+#bodys-text a{
+    font-size: 20px;
+}
+#testimony{
+    background-color: #F0F0F8;
+    padding: 5em;
+    margin-top: 25px;
+}
+blockquote{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -25px;
+}
+#quote{
+font-size: 70px;
+background-color: #F0F0F8;
+box-shadow: none;
+}
+#test{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+#test img{
+    border-radius: 100%;
+    width: 5%;
+    height: 5%;
+}
+#test h4{
+    margin-top: 17.5px;
+    margin-left: 15px;
+}
+#test a{
+    margin-top: 17.5px;
+    margin-left: auto;
+    font-size: 20px;
+}
+#svg-body{
+    display: flex;
+    padding: 1em;
+}
+#svg-body div{
+    margin-left: 40px;
+}
+.svgs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 150px;
+}
+.svgs div{
+    width: 100%;
+    background-color: #F0F0F8;
+    height: 10vh;
+    width: 300px;
+    padding: 1em;
+}
+.svgs div img{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+#section-3{
+    background-color: #CE2D2D;
+    display: flex;
+    padding: 1em;
+    margin: auto;
+    color: white;
+    height: 25vh;
+}
+#section-3 h1{
+    margin-top: 70px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+#btn2{
+    width: 10%;
+    height: 8vh;
+    border-radius: 30px;
+    padding: 2px;  
+    margin-left: 400px; 
+    margin-top: 60px; 
+}
+#btn2:hover{
+    border-radius: 30px;
+    border: thick solid white;
+}
+#section-3 button{
+    background-color: white;
+    color: #CE2D2D;
+    width: 100%;
+    height: 8vh;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+}
+footer{
+    background-color: #29292C;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 1em;
+    height: 40vh;
+}
+.footer img{
+    width: 20%;
+    cursor: pointer;
+    margin-top: -200px;
+}
+.footer a{
+    color: white;
+    line-height: 2em;
+    font-weight: bold;
+    font-size: 18px;
+}
+#let{
+    color: #CE2D2D;
+}
+.footer div{
+    margin-left: 300px;
+}
+#zero{
+    font-size: normal;
+}
+#footer1{
+    margin-left: -5px; 
+}
+#footer2{
+    margin-left: -5px; 
+}
+.foot{
+    margin-top: -30px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    color: #B5B5A4;
+    padding: 1em;
+}
+.foot p{
+    margin-left: 35px;
+}
+.foot p{
+    font-size: 15px;
+    width: 130%;
+}
+#foot a{
+    color: #B5B5A4;
+    line-height: 2em;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 20px;
+}
+#foot ul{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 55%;
+    margin-left: 250px;
+}
